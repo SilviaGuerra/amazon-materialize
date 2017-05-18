@@ -2,5 +2,5 @@
 
 
 .table>tbody>tr>td {
-  border-top: 1px;
+  border-top: none;
 }
