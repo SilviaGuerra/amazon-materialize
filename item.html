@@ -11,11 +11,67 @@
 </head>
 
 <body>
-  <section id="item-detalle" class="container"></section>
-  <section id="detalle-envio" class="container"></section>
-  <section id="descripcion-item" class="container"></section>
-  <section id="opiniones" class="container">
-    <section id="calificacion" class="col-md-8">
+    <section id="item-detalle" class="container-fluid">
+        <section id="miniaturas col-md-1">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="ministura">
+                    </a>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="miniatura">
+                    </a>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="miniatura">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="img-item" class="container col-md-3">
+            <img src="assets/amazon-dummy-busqueda.jpg" alt="">
+        </section>
+        <section id="descripcion-detalle" class="container col-md-6"></section>
+        <aside class="container col-md-3">
+            <section id="share" class="row">
+                <a href="#">Compartir</a>
+                <div class="cont-net-img">
+                    <img src="assets/mail.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/face.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/twitter.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/pinterest.png" alt="" class="social-img">
+                </div>
+            </section>
+            <section class="container panel panel-default">
+                <div class="panel-body">
+                    Basic panel example
+                    <button></button>
+                     <a href="#">Activar pedidos con 1-click</a>
+                    <hr>
+                    cvbnm
+                   
+                </div>
+            </section>
+        </aside>
+    </section>
+    <section id="detalle-envio" class="container"></section>
+    <section id="descripcion-item" class="container"></section>
+    <section id="opiniones" class="container">
+       
+    <section id="calificacion" class="col-md-3">
       <h5>Opiniones de clientes</h5>
       
       <div class="col-md-7">
@@ -78,15 +134,16 @@
               <td><a>7</a></td>
             </tr>
         </table>
+        </div>
+        </section>
+        <aside>
+            <section id="imagenes_clientes"></section>
+            <section id="opiniones_recientes"></section>
+        </aside>
     </section>
-    <aside>
-      <section id="imagenes_clientes"></section>
-      <section id="opiniones_recientes"></section>
-    </aside>
-  </section>
-  <section id="cierre-item" class="container"></section>
-  
-  <!-- Scripts para javascript -->
+    <section id="cierre-item" class="container"></section>
+
+    <!-- Scripts para javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
