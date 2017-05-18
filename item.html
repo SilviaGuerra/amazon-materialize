@@ -7,79 +7,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Detalle item</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/item.css">
 </head>
 
 <body>
-  <section id="item-detalle" class="container"></section>
-  <section id="detalle-envio" class="container"></section>
-  <section id="descripcion-item" class="container"></section>
-  <section id="opiniones" class="container">
+    <section id="item-detalle" class="container-fluid">
+        <section id="miniaturas col-md-1">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="ministura">
+                    </a>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="miniatura">
+                    </a>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="https://dummyimage.com/64x64/d1d1d1/ffffff.jpg" alt="miniatura">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="img-item" class="container col-md-3">
+            <img src="assets/amazon-dummy-busqueda.jpg" alt="">
+        </section>
+        <section id="descripcion-detalle" class="container col-md-6"></section>
+        <aside class="container col-md-3">
+            <section id="share" class="row">
+                <a href="#">Compartir</a>
+                <div class="cont-net-img">
+                    <img src="assets/mail.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/face.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/twitter.png" alt="" class="social-img">
+                </div>
+                <div class="cont-net-img">
+                    <img src="assets/pinterest.png" alt="" class="social-img">
+                </div>
+            </section>
+            <section class="container panel panel-default">
+                <div class="panel-body">
+                    Basic panel example
+                    <button></button>
+                     <a href="#">Activar pedidos con 1-click</a>
+                    <hr>
+                    cvbnm
+                   
+                </div>
+            </section>
+        </aside>
+    </section>
+    <section id="detalle-envio" class="container"></section>
+    <section id="descripcion-item" class="container"></section>
+    <section id="opiniones" class="container">
+       
     <section id="calificacion" class="col-md-3">
       <h5>Opiniones de clientes</h5>
       
-      <div class="">
+      <div class="col-md-7">
         <img src="assets/amazon-stars.dummy.png">
-        <table class="table table-condensed">
+        <span class="col-md-12">4,5 de un máximo de 5</span>
+        <table class="table table-condensed" id="tabla-calificaciones">
             <tr>
-              <td></td>
-              <td>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
-                  </div>
-                </div>
-            </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
+              <td><a>5 estrellas</a></td>
+              <td class="col-md-8">
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                     <span class="sr-only">60% Complete</span>
                   </div>
                 </div>
               </td>
+              <td><a>105</a></td>
             </tr>
             <tr>
-              <td></td>
+              <td><a>4 estrellas</a></td>
               <td>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                    <span class="sr-only">20% Complete</span>
                   </div>
                 </div>
               </td>
+              <td><a>21</a></td>
             </tr>
             <tr>
-              <td></td>
+              <td><a>3 estrellas</a></td>
               <td>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                    <span class="sr-only">10% Complete</span>
                   </div>
                 </div>
               </td>
+              <td><a>8</a></td>
             </tr>
             <tr>
-              <td></td>
+              <td>2 estrellas</td>
               <td>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                    <span class="sr-only">60% Complete</span>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    <span class="sr-only">0% Complete</span>
                   </div>
                 </div>
               </td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td><a>1 estrella</a></td>
+              <td>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                    <span class="sr-only">10% Complete</span>
+                  </div>
+                </div>
+              </td>
+              <td><a>7</a></td>
             </tr>
         </table>
+        </div>
+        </section>
+        <aside>
+            <section id="imagenes_clientes"></section>
+            <section id="opiniones_recientes"></section>
+        </aside>
     </section>
-    <aside>
-      <section id="imagenes_clientes"></section>
-      <section id="opiniones_recientes"></section>
-    </aside>
-  </section>
-  <section id="cierre-item" class="container"></section>
-  
-  <!-- Scripts para javascript -->
+    <section id="cierre-item" class="container"></section>
+
+    <!-- Scripts para javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

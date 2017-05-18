@@ -6,8 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amazon</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nav.css">
   </head>
   <body>
+
+    <header>
+        <nav class="navbar navbar-default">
+          <div class="row">
+            <!-- /.col-lg-6 -->
+            <div class="col-lg-6">
+              <div class="input-group">
+                 <span class="input-group-btn">
+                   <button class="btn btn-default" type="button">Todos los depatamentos</button>
+                 </span>
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+              </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+              <a class="navbar-brand" href="#">Amazon</a>
+            </div>
+        </nav>    
+    </header>
+    
+    
+
+    <div class="container">
+      <section class="carrusel">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-fixed-item center">
+            <img src="assets/amazon-dummy-carrusel-home.jpg" alt="">
+
     <!-- Carousel -->
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -24,6 +55,7 @@
           </div>
           <div class="item">
             <img data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide" src="assets/amazon-dummy-carrusel-home.jpg">
+
           </div>
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
