@@ -2,6 +2,19 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 /*pagina principal*/
+h2{
+	font-size: 21px;
+}
+
+.articulos{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.vermas{
+	margin: 20px;
+}
+
 .milargo{
 	max-height: 100px;
 }
