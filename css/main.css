@@ -1,6 +1,15 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
+/*pagina principal*/
+.milargo{
+	max-height: 100px;
+}
+
+.thumbnail{
+	border: none;
+}
+
 /* footer*/
 .footer-header{
 	background-color: #37475A;
