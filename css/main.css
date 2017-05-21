@@ -14,7 +14,6 @@
 .footer-header{
 	background-color: #37475A;
 	width: 100%;
-	margin-bottom: 2%;
 }
 a p{
 	font-size: 100%;
@@ -27,7 +26,11 @@ footer > a:hover{
 .white-text{
 	color: #fff;
 }
-footer a:hover, a{
+footer a:hover{
+	color: #FFF;
+	font-size: 83%;
+}
+.aFooter{
 	color: #FFF;
 	font-size: 83%;
 }
@@ -37,6 +40,7 @@ footer p{
 .copyright{
 	background-color:#131a22;
 	padding-bottom: 5%;
+	padding-top: 1%;
 }
 .color2{
 	background-color: #232F3E;
