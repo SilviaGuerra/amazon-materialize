@@ -2,16 +2,17 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Detalle item</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/item.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detalle item</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/item.css">
 </head>
 
 <body>
-    <section id="item-detalle" class="container-fluid">
+
+     <section id="item-detalle" class="container-fluid">
         <section id="miniaturas col-md-1">
             <div class="media">
                 <div class="media-left">
@@ -39,45 +40,134 @@
             <img src="assets/amazon-dummy-busqueda.jpg" alt="">
         </section>
         <section id="descripcion-detalle" class="container col-md-6"></section>
-        <aside class="container col-md-3">
+        <aside id="aside-item-principal" class="container col-md-3">
             <section id="share" class="row">
                 <a href="#">Compartir</a>
-                <div class="cont-net-img">
-                    <img src="assets/mail.png" alt="" class="social-img">
+                <div class="media">
+                    <div class="cont-net-img">
+                        <a href="#">
+                            <img class="media-object" src="assets/mail.png" alt="miniatura">
+                        </a>
+                    </div>
                 </div>
-                <div class="cont-net-img">
-                    <img src="assets/face.png" alt="" class="social-img">
+                <div class="media">
+                    <div class="cont-net-img">
+                        <a href="#">
+                            <img class="media-object" src="assets/face.png" alt="miniatura">
+                        </a>
+                    </div>
                 </div>
-                <div class="cont-net-img">
-                    <img src="assets/twitter.png" alt="" class="social-img">
+                <div class="media">
+                    <div class="cont-net-img">
+                        <a href="#">
+                            <img class="media-object" src="assets/twitter.png" alt="miniatura">
+                        </a>
+                    </div>
                 </div>
-                <div class="cont-net-img">
-                    <img src="assets/pinterest.png" alt="" class="social-img">
+                <div class="media">
+                    <div class="cont-net-img">
+                        <a href="#">
+                            <img class="media-object" src="assets/pinterest.png" alt="miniatura">
+                        </a>
+                    </div>
                 </div>
             </section>
-            <section class="container panel panel-default">
+            <section class="container panel panel-default col-md-12">
                 <div class="panel-body">
-                    Basic panel example
-                    <button></button>
-                     <a href="#">Activar pedidos con 1-click</a>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Si, quiero envios GRATIS con <a href="#">Amazon Prime</a><link rel="stylesheet" href="#"></label>
+                    </div>
+                    <button id="btn-carrito" class=" row col-md-12"><div id="carrito-img"><img  src="assets/cart.png" alt="carrito"></div><span>Agregar al carrito</span></button>
+                    <br>
+                    <a href="#">Activar pedidos con 1-click</a>
                     <hr>
-                    cvbnm
-                   
+                    <dl>
+                        <dt>Enviar a:</dt>
+                        <dd>Emanuel Orozco C - Mexico-</dd>
+                    </dl>
+                    <select name="cp" id="cp">
+                         <option value="11800">11800</option>
+                          <option value="06010">06010</option>
+                    </select>
+                    <hr>
+                    <select name="wish" id="wish" class="selectpicker col-md-11">
+                         <option value="wish">Add to wish list</option>
+                          <option value="lovely">Send to a friend</option>
+                    </select>
+
                 </div>
             </section>
         </aside>
     </section>
-    <section id="detalle-envio" class="container"></section>
-    <section id="descripcion-item" class="container"></section>
-    <section id="opiniones" class="container">
-       
-    <section id="calificacion" class="col-md-3">
+    <section id="img-item" class="container col-md-3">
+      <img src="assets/amazon-dummy-busqueda.jpg" alt="">
+    </section>
+    <section id="descripcion-detalle" class="container col-md-6"></section>
+    <aside class="container col-md-3">
+      <section id="share" class="row">
+        <a href="#">Compartir</a>
+        <div class="cont-net-img">
+          <img src="assets/mail.png" alt="" class="social-img">
+        </div>
+        <div class="cont-net-img">
+          <img src="assets/face.png" alt="" class="social-img">
+        </div>
+        <div class="cont-net-img">
+          <img src="assets/twitter.png" alt="" class="social-img">
+        </div>
+        <div class="cont-net-img">
+          <img src="assets/pinterest.png" alt="" class="social-img">
+        </div>
+      </section>
+      <section class="container panel panel-default">
+        <div class="panel-body">
+          Basic panel example
+          <button></button>
+          <a href="#">Activar pedidos con 1-click</a>
+          <hr> cvbnm
+        </div>
+      </section>
+    </aside>
+  </section>
+  <section class="container">
+    <div class="row">
+    <hr>
+    <h4>Ofertas especiales y promociones de productos</h4>
+    <p>Nombre de estilo: <strong>Nacional</strong></p>
+    <ul>
+      <strong><li>Hasta 12 Meses Sin Intereses</strong> en pedidos mayores a $2,500 vendidos y enviados por Amazon México con tarjetas de crédito participantes, no aplica para productos en preventa.<a>Ver más detalles</a></li>
+    </ul>
+    <hr>
+    </div>
+  </section>
+  <section id="detalle-envio" class="container">
+    <div class="row">
+    <h4>Detalles del producto</h4>
+    <p>Nombre de estilo: <strong>Nacional</strong></p>
+    <p><strong>ASIN:</strong>B01LT12086</p>
+    <p><strong>Dimensiones del producto:</strong>9.4 x 35.1 x 20cm; 1.7 kg</p>
+    <p><strong>Fecha de lanzamiento:</strong>3 de marzo de 2017</p>
+    <p><strong>Opinión media de los clientes sobre el producto:</strong><img src="assets/amazon-stars.dummy.png"><a>141 opiniones de clientes</a></p>
+    <p><strong>Clasificación en los más vendidos de amazon:</strong>n°8 en Videojuegos (<a>Ver el Top 100 en Videojuegos</a>)</p>
+    <hr>
+    </div>
+  </section>
+  <section id="descripcion-item" class="container">
+    <hr>
+    <h4>Descripción del producto</h4>
+    <span>Nombre de estilo: <strong>Nacional</strong></span>
+    <p>Nintendo Switch es una consola de videojuego innovadora para el hogar. No solo se puede conectar a un televisor en tu casa, sino que también se transforma al instante en una consola portátil con una pantalla de 6.2 pulgadas. Por primera vez, los jugadores pueden disfrutar en cualquier momento y en cualquier lugar. La pantalla es capacitiva y multitáctil para los juegos compatibles. La batería puede durar más de 6 horas, pero la variación variará según el programa y las condiciones de uso.</p>
+    <hr>
+  </section>
+  <section id="opiniones" class="container">
+
+    <section id="calificacion" class="col-md-7">
       <h5>Opiniones de clientes</h5>
-      
-      <div class="col-md-7">
-        <img src="assets/amazon-stars.dummy.png">
-        <span class="col-md-12">4,5 de un máximo de 5</span>
-        <table class="table table-condensed" id="tabla-calificaciones">
+      <div class="row">
+        <div class="col-md-8">
+          <img src="assets/amazon-stars.dummy.png">
+          <span class="col-md-12">4,5 de un máximo de 5</span>
+          <table class="table table-condensed">
             <tr>
               <td><a>5 estrellas</a></td>
               <td class="col-md-8">
@@ -133,19 +223,37 @@
               </td>
               <td><a>7</a></td>
             </tr>
-        </table>
+          </table>
+          <span><a>Ver las 141 opiniones de clientes</a></span>
         </div>
-        </section>
-        <aside>
-            <section id="imagenes_clientes"></section>
-            <section id="opiniones_recientes"></section>
-        </aside>
+        <div>
+          <p>Comparte tu opinión con otros clientes</p>
+          <button>Escribir mi opinión</button>
+        </div>
+      </div>
     </section>
-    <section id="cierre-item" class="container"></section>
+    <aside>
+      <section id="imagenes_clientes"></section>
+      <section id="opiniones_recientes">
 
-    <!-- Scripts para javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+      </section>
+    </aside>
+  </section>
+  <section class="container">
+    <div>
+      <h4>Opinion de clientes</h4>
+      <div class="row">
+        <p><img src="assets/amazon-stars.dummy.png"> <strong>parece que la consola fue usada</strong></p>
+        <span><a>Por cliente de Amazon TOP 100 COMENTARISTAS </a> en 17 de abril de 2017</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="cierre-item" class="container"></section>
+
+  <!-- Scripts para javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
