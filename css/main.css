@@ -11,6 +11,11 @@
 nav a {
 	color: #FFF;
 }
+ /* Editando bootstrap */
+ .row {
+    padding-right: -15px;
+    margin-left: -15px;
+}
 
 /*pagina principal*/
 .milargo{
@@ -37,10 +42,7 @@ nav a {
 	text-align: center;
 }
 
-/* Carrito de compra*/
-.image{
-  width:100%;
-}
+
 
 
 /* footer*/
