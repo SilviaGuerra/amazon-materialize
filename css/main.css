@@ -1,6 +1,17 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Nav */
+
+.rigth{
+	text-align: right;
+}
+
+nav a {
+	color: #FFF;
+}
+
 /*pagina principal*/
 .milargo{
 	max-height: 100px;
@@ -24,6 +35,11 @@
 .descripcion{
 	font-size: 18px;
 	text-align: center;
+}
+
+/* Carrito de compra*/
+.image{
+  width:100%;
 }
 
 
