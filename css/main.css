@@ -71,7 +71,11 @@ h2{
 	flex-direction: column;
 }
 
-
+.teles{
+	margin-left: 60px;
+	color: #c9c9c9;
+	font-size: 30px;
+}
 
 /* footer*/
 .footer-header{
@@ -169,4 +173,3 @@ footer ul{
 	color: white;
 }
 /*css nav termina*/
-
