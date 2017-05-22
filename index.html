@@ -7,19 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amazon</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="nav.css">
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
-
   </head>
 
   <body>
-    <header>
+
+      <header>
       <nav class="navbar navbar-inverse">
-        <section class="row">
-          <div class="col-sm-1">
-              <img class="navbar-brand" src="amazon.png">
-          </div>  <!--/.col-sm-3 -->
-          <div class="col-sm-8">
+        <section class="row row-size">
+          <div id="nav-logo" class="col-sm-4">
+              <img class="img-responsive center-block" src="assets/logo-amazon-blanco.png">
+              <a href="#">
+              Try Prime
+              </a>
+          </div> 
+          <div class="col-sm-7">
             <div class="input-group">
               <span class="input-group-btn">
                 <div class="dropdown">
@@ -37,53 +39,55 @@
               </div>
               </span>
               <input type="text" class="form-control">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              <span  class="input-group-btn">
+                <button id="buttonSearch" class="btn" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+
               </span>
             </div><!-- /input-group -->
           </div><!-- /.col-sm-6 -->
-           <div class="col-sm-3">
-              <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-              <a>Prime Video | Empieza tu prueba gratis</a>
+           <div class="col-sm-3 itemCenter-nav">
+              <span class="glyphicon glyphicon-play-circle item-green" aria-hidden="true"></span>
+              <a class="item-text">Prime Video|Empieza tu prueba gratis</a>
             </div>
         </section>
         <section class="row">
           <div class="col-sm-2">
-              <div class="dropdown ">
-                <a class="btn btn dropdown textwhite" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <div class="dropdown itemCenter-nav">
+                <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Departamentos
                 <span class="caret"></span>
                 </a>
               </div>
           </div>
-          <div class="col-sm-7">
-            <a href="#">Amazon.com</a>
-            <a href="#">Promociones</a>
-            <a href="#">Vender</a>
-            <a href="#">Ayuda</a>
+          <div class="col-sm-7 itemCenter-nav">
+            <a class="item-text space" href="#">Amazon.com</a>
+            <a class="item-text space" href="#">Promociones</a>
+            <a class="item-text space" href="#">Vender</a>
+            <a class="item-text space" href="#">Ayuda</a>
           </div>
           <div class="col-sm-3">
             <div class="dropdown">
-              <a class="btn btn dropdown textwhite" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Mi cuenta
+              <a class="btn btn dropdown item-text " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span class="nav-tools">Hello, Sign in</span>      
+              Mi cuenta
               <span class="caret"></span>
+              
               </a>
-              <a class="btn btn dropdown textwhite" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Prime
               <span class="caret"></span>
               </a>
-              <a class="btn btn dropdown textwhite" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     List
               <span class="caret"></span>
               </a>
-              <a>
-                <span class="glyphicon glyphicon-play-shopping-cart" aria-hidden="true"></span>
-              </a>
+              <span class="glyphicon glyphicon-shopping-cart item-car" aria-hidden="true">Carrito</span>
             </div>
           </div>
         </section>
       </nav>
     </header>
+  
 
     <div class="container">
       <!-- Carousel -->
@@ -484,7 +488,7 @@
         </div>
         <div class="col-xs-12 col-md-12">
           <hr>
-          <img alt="amazon" class="img-responsive center-block"src="assets/logo-amazon-blanco.png"
+          <img alt="amazon" class="img-responsive center-block" src="assets/logo-amazon-blanco.png">
         </div>
         <div class="col-xs-12 col-md-12 text-center">
           <p>

@@ -3,12 +3,87 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Amazon</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet"/>
 		<link type="text/css" rel="stylesheet" href="css/main.css"/>
 		<link type="text/css" rel="stylesheet" href="css/carrito.css"/>
-		<title>Amazon</title>
 	</head>
 	<body>
+	<header>
+      <nav class="navbar navbar-inverse">
+        <section class="row row-size">
+          <div id="nav-logo" class="col-sm-4">
+              <img class="img-responsive center-block" src="assets/logo-amazon-blanco.png">
+              <a href="#">
+              Try Prime
+              </a>
+          </div> 
+          <div class="col-sm-7">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Todos los Departamentos
+                  <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+              </div>
+              </span>
+              <input type="text" class="form-control">
+              <span  class="input-group-btn">
+                <button id="buttonSearch" class="btn" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+
+              </span>
+            </div><!-- /input-group -->
+          </div><!-- /.col-sm-6 -->
+           <div class="col-sm-3 itemCenter-nav">
+              <span class="glyphicon glyphicon-play-circle item-green" aria-hidden="true"></span>
+              <a class="item-text">Prime Video|Empieza tu prueba gratis</a>
+            </div>
+        </section>
+        <section class="row">
+          <div class="col-sm-2">
+              <div class="dropdown itemCenter-nav">
+                <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Departamentos
+                <span class="caret"></span>
+                </a>
+              </div>
+          </div>
+          <div class="col-sm-7 itemCenter-nav">
+            <a class="item-text space" href="#">Amazon.com</a>
+            <a class="item-text space" href="#">Promociones</a>
+            <a class="item-text space" href="#">Vender</a>
+            <a class="item-text space" href="#">Ayuda</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="dropdown">
+              <a class="btn btn dropdown item-text " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span class="nav-tools">Hello, Sign in</span>      
+              Mi cuenta
+              <span class="caret"></span>
+              
+              </a>
+              <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Prime
+              <span class="caret"></span>
+              </a>
+              <a class="btn btn dropdown item-text" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    List
+              <span class="caret"></span>
+              </a>
+              <span class="glyphicon glyphicon-shopping-cart item-car" aria-hidden="true">Carrito</span>
+            </div>
+          </div>
+        </section>
+      </nav>    
+    </header>
 		<section class="container-fluid" id="contenedor">
       <div class="row">
         <div class="col-md-12" id="head"></div>
