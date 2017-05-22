@@ -18,6 +18,19 @@ nav a {
 }
 
 /*pagina principal*/
+h2{
+	font-size: 21px;
+}
+
+.articulos{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.vermas{
+	margin: 20px;
+}
+
 .milargo{
 	max-height: 100px;
 }
@@ -27,7 +40,7 @@ nav a {
 }
 
 .tamano{
-	width: 150px;
+	width: 120px;
 	height: 200px;
 }
 
@@ -42,6 +55,21 @@ nav a {
 	text-align: center;
 }
 
+.lomas{
+	background: #F9F9F9;
+	float: right;
+	height: 1700px;
+}
+
+.ideas{
+	font-size: 13px;
+}
+
+.ofertas{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 
 
 
