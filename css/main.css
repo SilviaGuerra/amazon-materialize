@@ -77,6 +77,11 @@ h2{
 	font-size: 30px;
 }
 
+.tarjetas{
+	margin: 20px;
+	text-align: center;
+}
+
 /* footer*/
 .footer-header{
 	background-color: #37475A;
