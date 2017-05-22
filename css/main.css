@@ -89,3 +89,56 @@ footer ul{
 	padding: 0;
 }
 /*termina footer*/
+/*css nav*/
+#buttonSearch{
+	background-color:  #FEBD69;
+}
+
+#nav-logo{
+	position: relative;
+    float: left;
+    line-height: 0;
+    height: 100%;
+    width: 192px;
+    padding: 13px 18px 0 27px;
+}
+
+#nav-logo a {
+	position: absolute;
+    top: 40px;
+    left: 120px;
+    font-size: 11px;
+    color: #48A3C6;
+}
+
+.size-large{
+	height: 10px;
+}
+
+.itemCenter-nav{
+	text-align: center;
+}
+
+.item-text{
+	color: white;
+}
+.item-text:hover{
+	color:#BDBDBD;
+}
+.item-green{
+	color: #01DF3A;
+}
+.space{
+	padding-right: 30px;
+}
+.nav-tools{
+	position: absolute;
+	bottom: 20px;
+    left: 12px;
+    font-size: 11px;
+}
+.item-car{
+	color: white;
+}
+/*css nav termina*/
+
